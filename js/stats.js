@@ -120,8 +120,6 @@ var apiApp = new Vue({
             }
         },
 
-
-
         hide_show_map: function () {
             $("#map_button").click(function () {
                 if ($("#map_button").html() == "Hide Map") {
@@ -131,7 +129,6 @@ var apiApp = new Vue({
                 }
             })
         },
-
 
         hideMap: function () { //function to hide the map and show the toggle button
             $("#map").hide(2000);
